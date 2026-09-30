@@ -5,7 +5,7 @@ def goal_based_agent(current_temperature,goal_temperature=72):
         return "hot" 
     else:
         return "idle" 
-temperatures=[110,90,72,60,40] 
+temperatures=[110,90,71,60,40] 
 for temp in temperatures:
     action = goal_based_agent(temp) 
     print(f"Temperature: {temp}F")
