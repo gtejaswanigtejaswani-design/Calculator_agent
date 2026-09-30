@@ -2,7 +2,7 @@ def goal_based_agent(current_temperature,goal_temperature=72):
     if current_temperature>goal_temperature:
         return"cool" 
     elif current_temperature < goal_temperature:
-        return "heat" 
+        return "hot" 
     else:
         return "idle" 
 temperatures=[110,90,72,60,40] 
